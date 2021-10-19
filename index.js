@@ -1,6 +1,10 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js";
 import * as rtdb from "https://www.gstatic.com/firebasejs/9.0.2/firebase-database.js";
 import * as fbauth from "https://www.gstatic.com/firebasejs/9.0.2/firebase-auth.js";
+//Importing Jquery
+var script = document.createElement('script'); 
+script.src = '//code.jquery.com/jquery-1.11.0.min.js'; 
+document.getElementsByTagName('head')[0].appendChild(script); 
 
 const firebaseConfig = {
   apiKey: "AIzaSyAtRPh3V4lq2TtmH2pFNNJQ1BqyF1Df_T0",
