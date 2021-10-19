@@ -1,0 +1,32 @@
+#align {
+  width: 1000px;
+  margin-left: 20%;
+}
+#chats {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+input {
+  width: 710px;
+}
+
+body {
+  background-color: #ccb0ff;
+}
+
+#boardListBox {
+  float: left;
+}
+
+#usersBox {
+  float: right;
+}
+
+#usersListLabel {
+  margin-left: 80px;
+}
+
+#boardInfo {
+  margin-left: 30px;
+}
